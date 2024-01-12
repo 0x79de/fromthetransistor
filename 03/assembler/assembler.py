@@ -175,7 +175,7 @@ def openFile():
         filemenu.entryconfig(filemenu.index("Save"), state = NORMAL)
         frame.title("muCPU Assembler [" + filename + "]")
         frame.focus()
-    
+
 def saveFile():
     global filename
     asmdata = textArea.get("1.0", "end - 1c")
@@ -201,12 +201,12 @@ def saveFileAs():
         filemenu.entryconfig(filemenu.index("Save"), state = NORMAL)
         frame.title("muCPU Assembler [" + filename + "]")
         frame.focus()
-    
-        
+
+
 def exitApp():
     frame.destroy()
     sys.exit()
-    
+
 def compileASM():
     global filename
     cpu_out = ""
@@ -253,7 +253,6 @@ frame.mainloop()
 
 #Sample counting loop code
 """
-add r1, r1, r3
-sll r0, r0, r0
-bez r0, -2
+ADD R1, R1, #1
+SLL R1, R2, #3
 """
