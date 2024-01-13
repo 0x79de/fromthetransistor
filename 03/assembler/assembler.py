@@ -1,17 +1,19 @@
 from tkinter import *
+from tkinter import ttk
 import re
 import os
+import sys
+
 
 from tkinter import filedialog
 
-import sys
-
-filename = "untiled"
+filename = "arm_asm"
 fileexists = False
 
 def asmtoint(asm):
     asm_split = re.split(" |, |\(|\)", asm)
     args = []
+
     for i in range (len(asm_split)):
         if (asm_split[i] != ""):
             args.append(asm_split[i])
