@@ -1,3 +1,4 @@
-## resources
-
-- [writing an Assembler in Python](https://hackaday.io/project/10576-mucpu-an-8-bit-mcu/log/36010-writing-an-assembler-in-python) 
+usage:
+'''
+python3 asm.py hi.txt
+'''

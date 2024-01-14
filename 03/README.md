@@ -1,7 +1,7 @@
 # Processor: What is a processor anyway?
 
-- Coding an assembler (Python, 500)
+- Coding an assembler (Python)
 
-- Building a ARM7 CPU (Verilog, 1500)
+- Building a ARM7 CPU (Verilog)
 
-- Coding a bootrom (Assembler, 40)
+- Coding a bootrom (Assembler)
