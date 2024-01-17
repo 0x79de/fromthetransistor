@@ -107,10 +107,9 @@ for i in range(len(lines)):
 if insert: print(':' + insert)
 
 if len(sys.argv) > 2:
-    k = sys.argv[2].find('-s') 
+    k = sys.argv[2].find('-s')
     if k != -1:
         sym = sys.argv[2][k+2:]
         for key, value in labels.items():
             if key.find(sym) != -1:
                 print('#org '+ '%04.4x' % (value & 0xffff) + '\t' + key + ':')
-
