@@ -2,10 +2,10 @@
 
 execution:
 ```
-verilator -Wall --cc LEDBlink.v --exe --build -j 0 sim_main.cpp
+iverilog -o test_LEDBlink.v LEDBlink.v
 ```
 
 run:
 ```
-./obj_dir/VLEDBlink
+vvp test_LEDBlink.v
 ```

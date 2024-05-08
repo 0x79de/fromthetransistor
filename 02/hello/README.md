@@ -7,7 +7,7 @@ execution:
 
 run:
 ```
-./test_hello.v
+vvp test_hello.v
 ```
 
 ### resources
