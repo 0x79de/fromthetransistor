@@ -1,5 +1,3 @@
-.text
-Hello, World!
 .data
-Some data here.
+    message db 'Hello, world!', 0    
 
