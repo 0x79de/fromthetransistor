@@ -1,10 +1,13 @@
 use std::fs;
 
+#[derive(Debug)]
 struct Section {
+    #[allow(dead_code)]
     name: String,
     content: String,
 }
 
+#[derive(Debug)]
 struct ObjectFile {
     sections: Vec<Section>,
 }
