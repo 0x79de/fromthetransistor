@@ -15,15 +15,15 @@ read_loop:
 
     j read_loop
 
-setup_uart
+setup_uart:
     ret 
 
 uart_data_available:
-    li ti, 0x40000000
-    lbu a0, 0(ti)
+    li t1, 0x40000000
+    lbu a0, 0(t1)
     ret
 
 uart_read_byte:
-    li ti, 0x40000000
-    lbu a0, 0(ti)
+    li t1, 0x40000000
+    lbu a0, 0(t1)
     ret
