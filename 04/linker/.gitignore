@@ -1,0 +1,15 @@
+*.o
+
+*.elf
+a.out
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+
+*~
+*.swp
+*.swo
